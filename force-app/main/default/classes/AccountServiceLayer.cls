@@ -133,7 +133,7 @@ public with sharing class AccountServiceLayer {
             throw new ASLException(nae.getMessage());
         }
     }
-
+    /* comment for second edit */
     public static Account createDefaultAccount(){
         Account acct = new Account();
         acct.Name = 'Default Account';
