@@ -141,4 +141,10 @@ public with sharing class AccountServiceLayer {
         acct.Description = 'Default Account Description';
         return acct;
     }
+
+    /* new method for demo with pablo*/
+    public static void validateAccount(){
+        
+    }
+    
 }
